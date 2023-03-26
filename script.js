@@ -1,5 +1,10 @@
 var isDate = function (input) {
   //   write your code here
+	 if(input === new Date()){
+	  return true;
+  }else{
+	  return false;
+  }
 };
 
 // Do not change the code below.
